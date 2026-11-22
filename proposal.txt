@@ -1,0 +1,23 @@
+Exploring Breast Cancer Subtypes Using Gene Expression Data
+
+Research question (for now):
+	Can different breast cancer subtypes be identified by analyzing
+	gene expression patterns using PCA and clustering?
+
+
+I want to investigate differences between molecular subtypes of breast cancer.
+Breast cancer has different subtypes, each with its own biological characteristics.
+I want to explore whether these differences can be identified using gene 
+expression data.
+
+I'd like to use two datasets from The Cancer Genome Atlas (TCGA).
+	- One dataset contains gene expression data from breast cancer samples
+	- One dataset contains information about their molecular subtypes
+
+This is a little bit my plan:
+- Use python to clean and combine datasets 
+- Learn how to properly use PCA (Principal Component Analysis)
+	to reduce the number of variables and try to visualize patterns in the data.
+- Use a method of clustering to see whether the samples (of tumors) naturally form groups. 
+- Then I'd like to compare these groups with the known breast cancer subtypes
+
